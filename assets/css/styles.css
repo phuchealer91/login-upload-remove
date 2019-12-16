@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    height: 45px;
+    background: #fff;
+    position: relative;
+    top: 0;
+}
+
+.index {
+    background: #ebebeb;
+}
+
+.form-signin {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    line-height: 45px;
+}
+
+.signup {
+    position:  absolute;
+    right:  30px;
+    top: 11px;
+    background: #ff6472;
+    padding: 6px 10px;
+    color: #fff;
+    text-decoration:  none;
+    font-size: 10px;
+    font-family:  Arial;
+}
+h1 {
+    font-family: Arial;
+    font-size: 18px;
+    line-height:  45px;
+    margin: 0 0 0 30px;
+    color: lightblue;
+}
+
+input[type="text"] {
+    height:  25px;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+}
+
+h3 {
+    font-family: Arial;
+    text-align: center;
+    margin: 10px 0;
+    color: #999;
+}
+
+input[type="password"], input[type="email"] {
+    height: 25px;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    color: #999;
+    height:  25px;
+    padding: 0 10px;
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
+}
+
+footer {
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    width: 100%;
+    background: #000;
+    height: 30px;
+    bottom: 0;
+    color: #fff;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.content {
+    width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+}
+
+.content form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content form {
+    text-align: center;
+}
+
+.content form button {
+    background: #ff6472;
+    color: #fff;
+}
+
+.wrap-img {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-user {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #c5c5c5;
+    float: left;
+}
+
+.name-user {
+    display: block;
+    font-family: Arial;
+    float: left;
+    padding-left: 10px;
+}
+
+.email-user {
+    position: absolute;
+    bottom: 25px;
+    left: 70px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #999;
+}
+
+.content-allimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.content-selfimg {
+    padding: 10px;
+    text-align: center;
+}
+
+.wrap-selfimg {
+    position: relative;
+    background: #fff;
+    margin-top: -10px!important;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.selfuser {
+    float: none;
+    width: 100px;
+}
+
+.form-upload-profile {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn-upload {
+    background: lightcoral;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-upload-profile input[type="file"] {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.post-wrap {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.search-box form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.search-box form .input-search {
+    width: 88%;
+    border: 1px solid #333;
+}
+
+
